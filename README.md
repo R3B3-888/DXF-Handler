@@ -4,9 +4,15 @@
 
 ## Python Version
 
-> cd extract-python
-> pip install -r requirements.txt
-> python dl\_dxf\_zipfile.py
+In input, change the parameters that you like in the [input\_settings.py](Input/input_settings.py)
+and also put the right cities that you want in a csv file following the template file
+Attention, let `city,code` in the header of the file
 
-This will put latest dep33.zip in the output directory as well as dep33 extracted
-if you press y during the question.
+Dans le dossier Input/, changer les paramètres du fichier [input\_settings.py](Input/input_settings.py)
+et mettre les villes et les codes insee dans un fichier csv comme le template. Attention bien laisser `city,code` en haut
+
+> pip install -r requirements.txt
+> python dxf\_handler.py
+
+
+
