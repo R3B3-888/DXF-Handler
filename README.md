@@ -13,7 +13,7 @@ et mettre les villes et les codes insee dans un fichier csv comme le template. A
 
 > pip install -r requirements.txt
 
-> python dxf\_handler.py
+> python extract-python\dxf\_handler.py
 
 
 
